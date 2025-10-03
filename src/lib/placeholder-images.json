@@ -25,6 +25,24 @@
       "imageHint": "mobile ui"
     },
     {
+      "id": "how-it-works-1",
+      "description": "Tela inicial do app",
+      "imageUrl": "https://images.unsplash.com/photo-1632505084039-f8ec4b00e432?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhcHAlMjBob21lJTIwc2NyZWVufGVufDB8fHx8MTc1OTQ1ODY3MXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app home screen"
+    },
+    {
+      "id": "how-it-works-2",
+      "description": "Lista de posições",
+      "imageUrl": "https://images.unsplash.com/photo-1644143155332-2ae7baf7d32f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxhcHAlMjBzY3JlZW4lMjBwb3NpdGlvbnN8ZW58MHx8fHwxNzU5NDU4NjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screen positions"
+    },
+    {
+      "id": "how-it-works-3",
+      "description": "Tela de uma posição",
+      "imageUrl": "https://images.unsplash.com/photo-1621691187532-bbeb671757ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxhcHAlMjBzY3JlZW4lMjBkZXRhaWx8ZW58MHx8fHwxNzU5NDU4NjcxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screen detail"
+    },
+    {
       "id": "testimonial-avatar-1",
       "description": "Avatar for a user testimonial.",
       "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkzOTY1NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
