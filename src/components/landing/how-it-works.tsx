@@ -60,7 +60,7 @@ export default function HowItWorks() {
   return (
     <section className="py-20 md:py-28 bg-background">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">
             Veja Como Funciona na Prática
           </h2>
@@ -74,16 +74,16 @@ export default function HowItWorks() {
             align: "start",
             loop: true,
           }}
-          className="w-full max-w-4xl mx-auto"
+          className="w-full max-w-sm sm:max-w-xl md:max-w-4xl mx-auto"
         >
           <CarouselContent>
             {carouselItems.map((item) => {
                  const image = placeholderData.placeholderImages.find(p => p.id === item.id);
                  if (!image) return null;
                 return (
-                    <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
+                    <CarouselItem key={item.id} className="basis-full sm:basis-1/2 md:basis-1/3">
                         <div className="p-1 flex flex-col items-center text-center">
-                            <Card className="overflow-hidden border-2 border-primary/20 w-full">
+                            <Card className="overflow-hidden border-2 border-primary/20 w-[280px] sm:w-full mx-auto">
                                 <CardContent className="flex aspect-[9/18] items-center justify-center p-0">
                                 <Image
                                     src={image.imageUrl}
@@ -101,8 +101,8 @@ export default function HowItWorks() {
                 )
             })}
           </CarouselContent>
-          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground" />
-          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground" />
+          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground hidden sm:flex" />
+          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground hidden sm:flex" />
         </Carousel>
         <div className="flex justify-center gap-2 mt-8">
             {carouselItems.map((_, index) => (
@@ -117,7 +117,7 @@ export default function HowItWorks() {
             ))}
         </div>
         <div className="text-center mt-12">
-            <Button size="lg" asChild className="text-lg px-8 py-6">
+            <Button size="lg" asChild className="text-lg px-8 py-6 w-full md:w-auto">
               <a href="#pricing">Quero Experimentar Agora</a>
             </Button>
         </div>

@@ -16,11 +16,11 @@ export default function Hero() {
             <p className="text-lg md:text-xl text-foreground/80 mb-8">
               Descubra as 100 posições do Kamasutra em um app feito para mulheres que querem seduzir, surpreender e viver experiências inesquecíveis.
             </p>
-            <Button size="lg" asChild className="text-lg px-8 py-6">
+            <Button size="lg" asChild className="text-lg px-8 py-6 w-full md:w-auto">
               <a href="#pricing">Quero Sentir Agora</a>
             </Button>
           </div>
-          <div className="relative mx-auto max-w-[300px] md:max-w-sm">
+          <div className="relative mx-auto max-w-[250px] md:max-w-sm">
             {heroImage && (
               <Image
                 src={heroImage.imageUrl}

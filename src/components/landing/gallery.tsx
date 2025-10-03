@@ -17,7 +17,7 @@ export default function Gallery() {
   return (
     <section className="py-20 md:py-28 bg-card">
       <div className="container mx-auto px-4">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-12 md:mb-16">
           <h2 className="font-headline text-3xl md:text-4xl font-bold">
             Uma espiada no paraíso
           </h2>
@@ -33,13 +33,13 @@ export default function Gallery() {
             align: "start",
             loop: true,
           }}
-          className="w-full max-w-4xl mx-auto"
+          className="w-full max-w-sm sm:max-w-xl md:max-w-4xl mx-auto"
         >
           <CarouselContent>
             {galleryImages.map((image) => (
-              <CarouselItem key={image.id} className="md:basis-1/2 lg:basis-1/3">
+              <CarouselItem key={image.id} className="basis-full sm:basis-1/2 md:basis-1/3">
                 <div className="p-1">
-                  <Card className="overflow-hidden border-2 border-primary/20">
+                  <Card className="overflow-hidden border-2 border-primary/20 w-[280px] sm:w-full mx-auto">
                     <CardContent className="flex aspect-[9/18] items-center justify-center p-0">
                       <Image
                         src={image.imageUrl}
@@ -55,8 +55,8 @@ export default function Gallery() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground" />
-          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground" />
+          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground hidden sm:flex" />
+          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground hidden sm:flex" />
         </Carousel>
       </div>
     </section>
