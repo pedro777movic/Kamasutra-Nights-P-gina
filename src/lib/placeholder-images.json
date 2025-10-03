@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-mockup",
+      "description": "Mockup of the Kama Sutra Nights app on a smartphone, with a sensual and elegant background.",
+      "imageUrl": "https://images.unsplash.com/photo-1634403665443-81dc4d75843a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxwaG9uZSUyMG1vY2t1cHxlbnwwfHx8fDE3NTkzNTI4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "phone mockup"
+    },
+    {
+      "id": "gallery-mockup-1",
+      "description": "App screenshot showing a list of Kamasutra positions.",
+      "imageUrl": "https://images.unsplash.com/photo-1730818876956-838276fecfac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhcHAlMjBzY3JlZW58ZW58MHx8fHwxNzU5NDM0MDA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app screen"
+    },
+    {
+      "id": "gallery-mockup-2",
+      "description": "App screenshot showing the details of one position with an elegant illustration.",
+      "imageUrl": "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxhcHAlMjBpbnRlcmZhY2V8ZW58MHx8fHwxNzU5NDU4MzMzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "app interface"
+    },
+    {
+      "id": "gallery-mockup-3",
+      "description": "App screenshot showing user profile or tips section.",
+      "imageUrl": "https://images.unsplash.com/photo-1743138712084-d87c268d7d40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb2JpbGUlMjB1aXxlbnwwfHx8fDE3NTk0NTgzMzN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mobile ui"
+    },
+    {
+      "id": "testimonial-avatar-1",
+      "description": "Avatar for a user testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8d29tYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkzOTY1NTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "testimonial-avatar-2",
+      "description": "Avatar for a user testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1521252659862-eec69941b071?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHx3b21hbiUyMHByb2ZpbGV8ZW58MHx8fHwxNzU5MzUwOTIzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman profile"
+    },
+    {
+      "id": "testimonial-avatar-3",
+      "description": "Avatar for a user testimonial.",
+      "imageUrl": "https://images.unsplash.com/photo-1508002366005-75a695ee2d17?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoYXBweSUyMHdvbWFufGVufDB8fHx8MTc1OTM5MDUxOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "happy woman"
+    }
+  ]
 }
