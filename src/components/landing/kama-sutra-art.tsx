@@ -10,7 +10,7 @@ export default function KamaSutraArt() {
             A Arte do Kama Sutra
           </h2>
           <p className="text-base md:text-lg text-foreground/80 leading-relaxed">
-            Mais que um manual de posições, o Kama Sutra é um guia para uma experiência sexual magnífica, envolvendo todos os cinco sentidos, a mente e a alma. Ele ensina a desenvolver o erotismo e a sensualidade em cada detalhe, desde as posições, que vão de simples a acrobáticas, até a criação de um ambiente com velas, aromas e músicas, transformando cada encontro em um ritual de prazer.
+            O Kama Sutra traz um conjunto de regras sobre a prática do amor que eleva o sexo a uma experiência magnífica, envolvendo todos os cinco sentidos, a mente e a alma. Ele ensina a desenvolver o erotismo e a sensualidade em cada detalhe, desde as posições, que vão de simples a acrobáticas, até a criação de um ambiente com velas, aromas e músicas, transformando cada encontro em um ritual de prazer.
           </p>
         </div>
       </div>
