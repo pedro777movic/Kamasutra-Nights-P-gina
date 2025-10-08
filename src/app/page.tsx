@@ -8,6 +8,7 @@ import Pricing from '@/components/landing/pricing';
 import Testimonials from '@/components/landing/testimonials';
 import Faq from '@/components/landing/faq';
 import Footer from '@/components/landing/footer';
+import KamaSutraArt from '@/components/landing/kama-sutra-art';
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Features />
         <Benefits />
+        <KamaSutraArt />
         <HowItWorks />
         <Gallery />
         <Pricing />
