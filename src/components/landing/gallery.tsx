@@ -55,8 +55,8 @@ export default function Gallery() {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground sm:flex" />
-          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground sm:flex" />
+          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground flex left-4" />
+          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground flex right-4" />
         </Carousel>
       </div>
     </section>

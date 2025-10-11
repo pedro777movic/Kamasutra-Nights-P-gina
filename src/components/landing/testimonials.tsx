@@ -76,8 +76,8 @@ export default function Testimonials() {
               );
             })}
           </CarouselContent>
-          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground" />
-          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground" />
+          <CarouselPrevious className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground flex left-4" />
+          <CarouselNext className="text-foreground bg-background/50 hover:bg-primary hover:text-primary-foreground flex right-4" />
         </Carousel>
       </div>
     </section>
