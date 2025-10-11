@@ -40,7 +40,7 @@ export default function Gallery() {
               <CarouselItem key={image.id} className="basis-full sm:basis-1/2 md:basis-1/3">
                 <div className="p-1">
                   <Card className="overflow-hidden border-2 border-primary/20 w-[280px] sm:w-full mx-auto">
-                    <CardContent className="flex aspect-[9/18] items-center justify-center p-0">
+                    <CardContent className="flex items-center justify-center p-0">
                       <Image
                         src={image.imageUrl}
                         alt={image.description}
