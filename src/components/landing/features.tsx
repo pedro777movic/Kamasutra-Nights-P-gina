@@ -19,7 +19,7 @@ const featuresList = [
   },
   {
     icon: <Zap className="w-8 h-8 text-accent" />,
-    title: 'Conteúdo Exclusivo',
+    title: 'Posições fáceis, intermediárias e difíceis',
     description: 'Conteúdo exclusivo e atualizações constantes para mulheres ousadas como você.',
   },
 ];
