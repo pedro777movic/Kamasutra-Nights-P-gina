@@ -19,12 +19,16 @@ export default function Pricing() {
              <div className="absolute top-0 right-4 -mt-3">
               <div className="bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Popular</div>
             </div>
-            <CardHeader className="pb-4">
+            <CardHeader className="pb-4 text-center">
               <CardTitle className="font-headline text-2xl text-primary">Plano Premium</CardTitle>
               <CardDescription>A experiência completa e sem limites.</CardDescription>
             </CardHeader>
             <CardContent className="space-y-4">
-              <ul className="space-y-2 text-sm">
+              <div className="text-center">
+                <span className="text-4xl font-bold">R$ 47,00</span>
+                <span className="text-foreground/70"> / pagamento único</span>
+              </div>
+              <ul className="space-y-2 text-sm text-left">
                 <li className="flex items-center gap-2"><Check className="w-5 h-5 text-primary" /> Desbloqueie todas as 100 posições</li>
                 <li className="flex items-center gap-2"><Check className="w-5 h-5 text-primary" /> Dicas quentes de sedução</li>
                 <li className="flex items-center gap-2"><Check className="w-5 h-5 text-primary" /> Conteúdo exclusivo e atualizações</li>
