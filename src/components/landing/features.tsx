@@ -10,7 +10,7 @@ const featuresList = [
   {
     icon: <Sparkles className="w-8 h-8 text-accent" />,
     title: 'Tutoriais Fáceis',
-    description: 'Tutoriais fáceis para colocar em prática imediatamente e sem complicações.',
+    description: 'Tutoriais fáceis e explicativos para colocar em prática imediatamente e sem complicações.',
   },
   {
     icon: <Star className="w-8 h-8 text-accent" />,
