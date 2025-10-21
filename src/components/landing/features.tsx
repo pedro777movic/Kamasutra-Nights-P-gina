@@ -20,7 +20,7 @@ const featuresList = [
   {
     icon: <Zap className="w-8 h-8 text-accent" />,
     title: 'Posições fáceis, intermediárias e difíceis',
-    description: 'Conteúdo exclusivo e atualizações constantes para mulheres ousadas como você.',
+    description: 'Pratique posições excitantes de nível fácil, intermediário e difícil, para total diversão com prazer entre você e o seu parceiro.',
   },
 ];
 
