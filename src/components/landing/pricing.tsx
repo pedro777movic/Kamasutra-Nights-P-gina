@@ -14,23 +14,8 @@ export default function Pricing() {
             Baixe o app e tenha acesso imediato às 100 posições mais excitantes do Kamasutra.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto items-start">
-          <Card className="border-border bg-card">
-            <CardHeader className="pb-4">
-              <CardTitle className="font-headline text-2xl text-accent">Plano Gratuito</CardTitle>
-              <CardDescription>Para começar sua jornada de descobertas.</CardDescription>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              <ul className="space-y-2 text-sm">
-                <li className="flex items-center gap-2"><Check className="w-5 h-5 text-primary" /> Acesso a algumas posições básicas</li>
-                <li className="flex items-center gap-2"><Check className="w-5 h-5 text-primary" /> Tutoriais introdutórios</li>
-              </ul>
-            </CardContent>
-            <CardFooter>
-              <Button variant="outline" className="w-full text-accent border-accent hover:bg-accent hover:text-background">Começar Gratuitamente</Button>
-            </CardFooter>
-          </Card>
-          <Card className="border-primary border-2 shadow-2xl shadow-primary/20 relative bg-card">
+        <div className="flex justify-center max-w-4xl mx-auto">
+          <Card className="border-primary border-2 shadow-2xl shadow-primary/20 relative bg-card max-w-md">
              <div className="absolute top-0 right-4 -mt-3">
               <div className="bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full">Popular</div>
             </div>
