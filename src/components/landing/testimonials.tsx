@@ -26,6 +26,21 @@ const testimonialsList = [
     quote: "Nunca me senti tão confiante e sexy. Descobri um novo lado de mim mesma e do meu prazer.",
     name: "Mariana F.",
     avatarId: "testimonial-avatar-3"
+  },
+  {
+    quote: "Esse aplicativo é incrível! Me ajudou a sair da rotina e explorar novas sensações. Recomendo para todas as mulheres.",
+    name: "Beatriz M.",
+    avatarId: "testimonial-avatar-4"
+  },
+  {
+    quote: "Achei que já sabia tudo sobre prazer, mas o Kama Sutra Nights me mostrou um universo novo. Estou amando!",
+    name: "Sofia L.",
+    avatarId: "testimonial-avatar-5"
+  },
+  {
+    quote: "As ilustrações são lindas e de muito bom gosto. O app é fácil de usar e realmente cumpre o que promete.",
+    name: "Laura P.",
+    avatarId: "testimonial-avatar-6"
   }
 ];
 
