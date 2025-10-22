@@ -36,7 +36,11 @@ export default function Pricing() {
               </ul>
             </CardContent>
             <CardFooter>
-              <Button className="w-full">Quero Acessar Agora</Button>
+              <Button className="w-full" asChild>
+                <a href="https://pay.cakto.com.br/yhefprd_614524" target="_blank" rel="noopener noreferrer">
+                  Quero Acessar Agora
+                </a>
+              </Button>
             </CardFooter>
           </Card>
         </div>
