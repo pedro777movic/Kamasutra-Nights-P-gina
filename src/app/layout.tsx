@@ -34,7 +34,7 @@ export default function RootLayout({
         <Toaster />
         <Script id="utmify-pixel" strategy="afterInteractive">
           {`
-            window.pixelId = "690f5ee73be9fcfdf55e5261";
+            window.pixelId = "690f7f51110a6c57fb339922";
             var a = document.createElement("script");
             a.setAttribute("async", "");
             a.setAttribute("defer", "");
